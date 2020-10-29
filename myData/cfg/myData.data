@@ -1,6 +1,5 @@
-classes= 20
-train  = /home/pjreddie/data/voc/train.txt
-valid  = /home/pjreddie/data/voc/2007_test.txt
-names = data/voc.names
-backup = /home/pjreddie/backup/
-
+classes = 4
+train = D:\gitProject\trainDarknet-yolov4\myData/train.txt
+valid = D:\gitProject\trainDarknet-yolov4\myData/val.txt
+names = D:\gitProject\trainDarknet-yolov4\myData\cfg\myData.names
+backup = D:\gitProject\trainDarknet-yolov4\myData/weights

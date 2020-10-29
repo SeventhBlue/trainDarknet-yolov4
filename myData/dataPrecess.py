@@ -334,11 +334,11 @@ setNames = ["test.txt", "val.txt", "train.txt", "trainval.txt"]
 if __name__ == "__main__":
     #checkLabel(jpegImages, annotationsPath)
     
-    changeXMLImagePath(annotationsPath, saveChangePath)
-    checkXMLAndImage(annotationsPath, jpegImages, True)
-    fractionalSet(jpegImages, imageSets)
+    #changeXMLImagePath(annotationsPath, saveChangePath)
+    #checkXMLAndImage(annotationsPath, jpegImages, True)
+    #fractionalSet(jpegImages, imageSets)
 
-    darknetTrainFormatData(annotationsPath, imageSets, darknetFormatPath, classes, setNames)
+    #darknetTrainFormatData(annotationsPath, imageSets, darknetFormatPath, classes, setNames)
 
     configPara()
 
