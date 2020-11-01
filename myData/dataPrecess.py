@@ -211,8 +211,11 @@ def darknetTrainFormatData(xmlPath, imageSets, savePath, classes, sets):
     currPath = os.getcwd()
     namesPath = os.path.join(currPath, "cfg", "myData.names")
     namesFile = open(namesPath, mode='w')
-    for Line in classes:
-        namesFile.write(Line + '\n')
+    for ind, Line in enumerate(classes):
+        if ind == 0:
+            namesFile.write(Line)
+        else:
+            namesFile.write('\n' + Line)
     namesFile.close()
 
 
