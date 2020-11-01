@@ -64,7 +64,7 @@ For questions or issues please use the [Google Group](https://groups.google.com/
 	
 # 五、训练(更新20201102):
 	
-	注意：1.在myData/目录下，需要确保myData/Annotations，myData/ImageSets/Main，myData/JPEGImages，myData/weights文件夹存在，如果不存在新建；同时删除无关文件
+	注意：1.在myData/目录下，需要确保myData/Annotations，myData/ImageSets/Main，myData/JPEGImages，myData/weights文件夹存在，如果不存在那么新建该文件夹；同时删除无关文件，文件名上已经标明
 	
 	      2.根据自己电脑的性能修改batch和subdivisions值，一般来讲电脑性能越好batch值越大，subdivisions值越小，最好是2的整数指数值
 	
