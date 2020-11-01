@@ -18,13 +18,14 @@ For questions or issues please use the [Google Group](https://groups.google.com/
 
 # 一、编译：
 
+	
+	1.1 安装opencv：https://blog.csdn.net/qq_31112205/article/details/105161419	
+
+	1.2 根据电脑配置设置Makefile：这里默认使用gpu，cudnn，opencv，CUDNN_HALF，LIBSO
+	
 	[以/trainDarknet-yolov4为根目录]
 	
-	安装opencv：https://blog.csdn.net/qq_31112205/article/details/105161419	
-
-	1.1 根据电脑配置设置Makefile：这里默认使用gpu，cudnn，opencv，CUDNN_HALF，LIBSO
-	
-	1.2 make
+	1.3 make
 
 # 二、测试：
 
