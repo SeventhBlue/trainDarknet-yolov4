@@ -38,7 +38,7 @@ For questions or issues please use the [Google Group](https://groups.google.com/
 	
 	2.3 安装好了opencv会显示检测结果
 
-# 三、训练：
+# 三、训练(请看下面的更新部分)：
 
 	注意：1.在myData/目录下，需要确保myData/Annotations，myData/ImageSets/Main，myData/JPEGImages，myData/weights文件夹存在
 	
@@ -62,7 +62,7 @@ For questions or issues please use the [Google Group](https://groups.google.com/
 	
 	提取码：vgib
 	
-# 五、更新20201102
+# 五、训练(更新20201102):
 	
 	注意：1.在myData/目录下，需要确保myData/Annotations，myData/ImageSets/Main，myData/JPEGImages，myData/weights文件夹存在，如果不存在新建；同时删除无关文件
 	
