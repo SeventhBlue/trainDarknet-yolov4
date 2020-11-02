@@ -38,6 +38,7 @@ For questions or issues please use the [Google Group](https://groups.google.com/
 	
 	2.3 安装好了opencv会显示检测结果
 
+~~
 # 三、训练：
 
 	注意：1.在myData/目录下，需要确保myData/Annotations，myData/ImageSets/Main，myData/JPEGImages，myData/weights文件夹存在
@@ -55,6 +56,7 @@ For questions or issues please use the [Google Group](https://groups.google.com/
 	[以/trainDarknet-yolov4为根目录]
 	
 	3.4 训练执行命令：./darknet detector train myData/cfg/myData.data myData/cfg/myYolov4.cfg myData/weights/preWeights/yolov4.conv.137 -gpus 0 -map
+~~
 
 # 四、权重：
 
@@ -62,3 +64,18 @@ For questions or issues please use the [Google Group](https://groups.google.com/
 	
 	提取码：vgib
 	
+# 五、更新20201102
+	
+	注意：1.在myData/目录下，需要确保myData/Annotations，myData/ImageSets/Main，myData/JPEGImages，myData/weights文件夹存在，如果不存在新建；同时删除无关文件
+	
+	      2.根据自己电脑的性能修改batch和subdivisions值，一般来讲电脑性能越好batch值越大，subdivisions值越小，最好是2的整数指数值
+	
+	3.1 voc数据格式：xml文件放到myData/Annotations，图片放到myData/JPEGImages
+
+	[以/myData为运行根目录]
+	
+	3.2 执行命令：python dataPrecess.py
+	
+	[以/trainDarknet-yolov4为根目录]
+	
+	3.3 训练执行命令：./darknet detector train myData/cfg/myData.data myData/cfg/myYolov4.cfg myData/weights/preWeights/yolov4.conv.137 -gpus 0 -map
