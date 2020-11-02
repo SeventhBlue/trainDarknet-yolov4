@@ -38,7 +38,6 @@ For questions or issues please use the [Google Group](https://groups.google.com/
 	
 	2.3 安装好了opencv会显示检测结果
 
-~~
 # 三、训练：
 
 	注意：1.在myData/目录下，需要确保myData/Annotations，myData/ImageSets/Main，myData/JPEGImages，myData/weights文件夹存在
@@ -56,7 +55,6 @@ For questions or issues please use the [Google Group](https://groups.google.com/
 	[以/trainDarknet-yolov4为根目录]
 	
 	3.4 训练执行命令：./darknet detector train myData/cfg/myData.data myData/cfg/myYolov4.cfg myData/weights/preWeights/yolov4.conv.137 -gpus 0 -map
-~~
 
 # 四、权重：
 
